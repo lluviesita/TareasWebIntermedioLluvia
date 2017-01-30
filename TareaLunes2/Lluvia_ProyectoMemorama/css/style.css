@@ -1,0 +1,33 @@
+.cabecera{
+  margin: 0px;
+  background-color: #f1f1f1;
+}
+
+.memorama,.memorama1,.memorama2,.memorama3,.memorama4,.memorama5{
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  background-color: aqua;
+  color: aqua;
+  /*transform: translate(200px, 200px);*/
+  /*transform: rotate(45deg);*/
+  /*transform: scale(3);*/
+  /*transform: skew(20deg,10deg);*/
+  /*transform: rotate(20deg);*/
+  /*transform: scale(3,2);*/
+  transform: scale() ;
+}
+
+.memorama:hover, .memorama1:hover, .memorama2:hover, .memorama3:hover, .memorama4:hover, .memorama5:hover{
+  background-color: yellow;
+  height: 100px;
+  text-align: center;
+}
+
+.footer{
+  background: #f1f1f1;
+  padding: 20px;
+  height: 60px;
+  bottom: 0px;
+  text-align: center;
+}

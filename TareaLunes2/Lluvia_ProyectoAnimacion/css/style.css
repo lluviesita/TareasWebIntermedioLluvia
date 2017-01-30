@@ -1,0 +1,66 @@
+.cabecera{
+  margin: 0px;
+  background-color: #f1f1f1;
+}
+
+img{
+  width: 100px;
+  height: auto;
+  margin-left: auto;
+}
+
+.imagen{/*Fondo de un div*/
+  width: 100%;
+  height: 400px;
+  background-image: url("../imagenes/web5.jpg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagen2{/*Fondo de un div*/
+  width: 100%;
+  height: 400px;
+  background-image: url("../imagenes/web6.jpg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagen3{/*Fondo de un div*/
+  width: 100%;
+  height: 400px;
+  background-image: url("../imagenes/web7.jpg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animacion{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: animacion;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;/*o numero */
+}
+
+@keyframes animacion {
+/*  from{background-color: : blue;}
+  to{background-color: yellow;}*/
+0%{background-color: blue;text-align: hide;}
+25%{background-color: green;height: 200px;text-align: center;}
+50%{background-color: yellow;text-align: center;}
+  /*100%{background-color: orange;}*/
+
+
+}
+
+.footer{
+  background: #f1f1f1;
+  padding: 20px;
+  height: 60px;
+  bottom: 0px;
+  text-align: center;
+}
